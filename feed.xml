@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-10T11:36:03-04:00</updated><id>http://localhost:4000/</id><title type="html">Lofty Premises</title><subtitle>A place for the self-complicating thoughts of Brett Hagman.</subtitle><author><name>Brett Hagman</name></author><entry><title type="html">Arduino IDE 1.8.0 - Yay?</title><link href="http://localhost:4000/noise/2017/01/02/arduino-ide-1.8.0-yay/" rel="alternate" type="text/html" title="Arduino IDE 1.8.0 - Yay?" /><published>2017-01-02T08:00:00-05:00</published><updated>2017-01-02T08:00:00-05:00</updated><id>http://localhost:4000/noise/2017/01/02/arduino-ide-1.8.0-yay</id><content type="html" xml:base="http://localhost:4000/noise/2017/01/02/arduino-ide-1.8.0-yay/">&lt;p&gt;ICYMI - The “Arduinos” have begun to resolve their differences, and have attempted to start the process of merging the unnecessarily fractured software platform by releasing a new version of the Arduino IDE software&lt;!--more--&gt; - namely Arduino IDE 1.8.0.&lt;/p&gt;
+
+&lt;p&gt;arduino.org announcement: &lt;a href=&quot;http://web.archive.org/web/20170807081415/http://www.arduino.org/blog/one-ide-for-all-arduino-boards&quot;&gt;New IDE for all Arduino boards!&lt;/a&gt; (archived version from archive.org)&lt;/p&gt;
+
+&lt;p&gt;arduino.cc announcement: &lt;a href=&quot;https://blog.arduino.cc/2016/12/23/new-ide-for-all-arduino-boards/&quot;&gt;NEW IDE FOR ALL ARDUINO BOARDS!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;​It is a minor step in the right direction to removing some of the confusion surrounding all of the strangeness that both parties have exhibited over the last couple of years.  However, there is a long way to go.&lt;/p&gt;
+
+&lt;p&gt;Anyway, on December 23rd, 2016, the “Arduinos” released a somewhat-merged IDE.  (OK, so instead they compromised on a few things, and kept the “.CC” repository as the main repo.)&lt;/p&gt;
+
+&lt;p&gt;They bumped the version from 1.6.x (on the “.CC” side), and 1.7.x (on the “.ORG” side), to 1.8.0 – This should end the confusion about the software versions.  They also added support for both the “.CC” and “.ORG” hardware.&lt;/p&gt;
+
+&lt;p&gt;While this has been an interesting development in the Arduino ecosphere, there is still very little information on what is happening with the rest of the supposed merger.  Since the news of the settlement, there has been no other news, as far as I could find.  My only comment on this is that the involved parties need to be more open about what is happening with what was, at one time, an open source software project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://hackaday.com/2016/10/01/arduino-vs-arduino-arduino-won/&quot;&gt;Link to the Hackaday article on the settlement announcement&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Because of my involvement with the software and hardware with the “Arduinos” and Wiring, I sincerely  hope that 2017 will be a significantly better year than the previous ones.&lt;/p&gt;
+
+&lt;p&gt;So, happy new year!  Is this a step in the right direction?&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="arduino" /><summary type="html">ICYMI - The “Arduinos” have begun to resolve their differences, and have attempted to start the process of merging the unnecessarily fractured software platform by releasing a new version of the Arduino IDE software</summary></entry><entry><title type="html">Halloween 2016</title><link href="http://localhost:4000/noise/2016/11/02/halloween-2016/" rel="alternate" type="text/html" title="Halloween 2016" /><published>2016-11-02T09:00:00-04:00</published><updated>2016-11-02T09:00:00-04:00</updated><id>http://localhost:4000/noise/2016/11/02/halloween-2016</id><content type="html" xml:base="http://localhost:4000/noise/2016/11/02/halloween-2016/">&lt;p&gt;Here are some shots from this year’s Halloween setup.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/halloween2016/img-20161031-201118_orig.jpg&quot; class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/images/halloween2016/img-20161031-201118_orig.jpg&quot; style=&quot;width: 80%; padding: 20px;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/halloween2016/img-20161031-201150_orig.jpg&quot; class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/images/halloween2016/img-20161031-201150_orig.jpg&quot; style=&quot;width: 80%; padding: 20px;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&quot;margin:0 auto; width: 80%; padding: 20px;&quot;&gt;
+  &lt;div class=&quot;ytcontainer&quot;&gt;&lt;iframe class=&quot;yt&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.youtube.com/embed/qGPNVI2UZKs&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The big pumpkin plays music and has an animated face.  It currently has 4 different songs to which it sings.&lt;/p&gt;
+
+&lt;p&gt;There is a motion sensor that triggers the show over an RF link.&lt;/p&gt;
+
+&lt;p&gt;Here is a short breakdown of how it works:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pumpkin Player&lt;/strong&gt;: uses a Wiring S board, a Rogue Robotics rMP3 Playback Shield, an nRF24L01+ radio, and a hand built LED driver board to control the LEDs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motion Sensor&lt;/strong&gt;: uses a Wiring S board, a PIR module (from Seeed Studio, IIRC), and an nRF24L01+ radio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remote Control and Display&lt;/strong&gt;: uses a Rogue Robotics Rapscallion board, and an nRF24L01+ radio.&lt;/p&gt;
+
+&lt;p&gt;The Pumpkin Player receives messages from both the Motion Sensor and the Remote Control.  It plays music using the rMP3 and changes the facial expressions to match the music.  The facial expressions are stored as an accompanying lyrics file for the current song being played.  The rMP3 plays the music, and the Wiring S reads the lyrics file at the same time to get the expressions.&lt;/p&gt;
+
+&lt;p&gt;The Motion Sensor sends messages to both the Pumpkin Player and the Remote Control.  It uses a typical PIR sensor module.&lt;/p&gt;
+
+&lt;p&gt;The Remote Control receives messages from the Motion Sensor.  If the Motion Sensor is triggered, then the RGB LED on the Rapscallion flashes (and a tone on a speaker is played, if a speaker is connected).  Playback can be started and stopped using the buttons on the Rapscallion.&lt;/p&gt;
+
+&lt;p&gt;Wheeeee!  Another fun Halloween.&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="halloween" /><category term="arduino" /><category term="timewasted" /><category term="wiring" /><summary type="html">Here are some shots from this year’s Halloween setup.</summary></entry><entry><title type="html">WXM Grey Cup Sign Project</title><link href="http://localhost:4000/noise/2016/08/24/wxm-grey-cup-sign-project/" rel="alternate" type="text/html" title="WXM Grey Cup Sign Project" /><published>2016-08-24T09:00:00-04:00</published><updated>2016-08-24T09:00:00-04:00</updated><id>http://localhost:4000/noise/2016/08/24/wxm-grey-cup-sign-project</id><content type="html" xml:base="http://localhost:4000/noise/2016/08/24/wxm-grey-cup-sign-project/">&lt;p&gt;Brent Marshall from Wright XM poked me a while back to help him out on a project for the CFL.&lt;/p&gt;
+
+&lt;p&gt;They wanted a huge interactive sign for the kickoff the next season. Wright XM definitely stepped up to the plate (um… yeah, wrong sports metaphor).&lt;/p&gt;
+
+&lt;p&gt;The sign consisted of 8 characters (&lt;code class=&quot;highlighter-rouge&quot;&gt;#GREYCUP&lt;/code&gt;), and each letter was internally lit using addressable LEDs.&lt;/p&gt;
+
+&lt;p&gt;Brent needed a bit of help with the interaction between all of the letters.  He already had all of the high level interaction done (e.g. scraping Twitter for the hashtags to update the letter colours, etc.).  So, he called upon me to help with the low level stuff.&lt;/p&gt;
+
+&lt;p&gt;I used an old trick of using a single microcontroller as the master that would send simple serial messages with an embedded address. There was no data acking/error correction employed, as we only had a single transmitter, and no way to multiplex the incoming data from the slaves. RS232 was used in this case, since we didn’t have time/resources to switch over to RS422 or such, and we were well under 20m cable runs.&lt;/p&gt;
+
+&lt;p&gt;It worked quite well, despite a few cabling issues here and there, and in the end, I think Wright XM’s clients were happy.&lt;/p&gt;
+
+&lt;p&gt;Here is a video that Wright XM produced after the project to demonstrate what was done.&lt;/p&gt;
+
+&lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/151176817?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And here’s a shot of me working on the sign:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/wxmgreycupsign/werkinondaeee.webp&quot;&gt;
+&lt;img src=&quot;/assets/images/wxmgreycupsign/werkinondaeee.webp&quot; style=&quot;width:50%;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="blinkylights" /><summary type="html">Brent Marshall from Wright XM poked me a while back to help him out on a project for the CFL.</summary></entry><entry><title type="html">Look Who Turned Thirty This Year</title><link href="http://localhost:4000/noise/2014/11/09/look-who-turned-thirty-this-year/" rel="alternate" type="text/html" title="Look Who Turned Thirty This Year" /><published>2014-11-09T08:00:00-05:00</published><updated>2014-11-09T08:00:00-05:00</updated><id>http://localhost:4000/noise/2014/11/09/look-who-turned-thirty-this-year</id><content type="html" xml:base="http://localhost:4000/noise/2014/11/09/look-who-turned-thirty-this-year/">&lt;p&gt;By far the most interesting thing, for me at least, that turned thirty this year, is Brøderbund’s desktop publishing package &lt;a href=&quot;https://archive.org/details/The_Print_Shop_1984_Broderbund&quot;&gt;The Print Shop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Taken from &lt;a href=&quot;http://archive.org/&quot;&gt;Archive.org&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Print Shop is a basic desktop publishing software package developed in the early 1980s by Brøderbund. It was unique in that it provided libraries of clip-art and templates through a simple interface to build signs, posters and banners with household dot-matrix printers. Over the years the software has been updated to accommodate changing file formats and printer technologies.&lt;/p&gt;
+
+  &lt;p&gt;The original version was for the Apple II and created signs, cards, banners, and letterheads. Designed by David Balsam and programmed by Martin Kahn, it became one of the most popular Apple II titles of all time. Versions for the IBM PC, Commodore 64, and Atari 8-bit computers followed, as did a variant for the Apple IIGS. These versions were published in Europe by Ariolasoft.&lt;/p&gt;
+
+  &lt;p&gt;The software became very popular. In 1988 Brøderbund announced that it had sold more than one million copies, and that sales of The Print Shop comprised 4% of the entire United States software market in 1987.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ah… to think of the countless hours wasted in front of the ubiquitous Apple II series of computers, and others, by people around the world.&lt;/p&gt;
+
+&lt;p&gt;In honour of The Print Shop turning thirty, I could think of no better way to show my appreciation than to show everyone (especially the latest generation), the best part of printing something with The Print Shop:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/printshop-thinking.gif&quot; class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;/assets/images/printshop-thinking.gif&quot; style=&quot;width: 80%; padding: 20px;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers.&lt;/p&gt;
+
+&lt;p&gt;And happy birthday, The Print Shop!&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="apple" /><category term="nostalgia" /><summary type="html">By far the most interesting thing, for me at least, that turned thirty this year, is Brøderbund’s desktop publishing package The Print Shop.</summary></entry><entry><title type="html">Low Frequencies on Arbitrary Pins</title><link href="http://localhost:4000/noise/2014/07/23/low-frequencies-on-arbitrary-pins/" rel="alternate" type="text/html" title="Low Frequencies on Arbitrary Pins" /><published>2014-07-23T09:00:00-04:00</published><updated>2014-07-23T09:00:00-04:00</updated><id>http://localhost:4000/noise/2014/07/23/low-frequencies-on-arbitrary-pins</id><content type="html" xml:base="http://localhost:4000/noise/2014/07/23/low-frequencies-on-arbitrary-pins/">&lt;p&gt;I’ve had a few people ask me how to produce low frequencies on an arbitrary Arduino/Wiring pin. They have found that the tone() function (the same applies to the Tone library) can not produce frequencies below ~30 Hz.&lt;/p&gt;
+
+&lt;p&gt;The thing is that when you’re toggling a pin at that frequency, it is essentially an eon between pin toggles (from the microcontroller’s perspective).&lt;/p&gt;
+
+&lt;p&gt;So my suggestion is to add non-blocking code in your main loop to handle the flips, just as long as you don’t tie up the main loop with too much other time-consuming code.&lt;/p&gt;
+
+&lt;!--script src=&quot;https://gist.github.com/bhagman/0baae0c8f37ee37f0f61.js&quot;&gt;&lt;/script--&gt;
+&lt;script src=&quot;https://gist.github.com/0baae0c8f37ee37f0f61.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Here is a capture of the frequency output from a &lt;a href=&quot;http://www.roguerobotics.com/products/electronics/wiring/wirings&quot;&gt;Wiring S&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/lowfreqscopecap.png&quot;&gt;
+&lt;img src=&quot;/assets/images/lowfreqscopecap.png&quot; style=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="arduino" /><category term="code" /><category term="gist" /><category term="wiring" /><summary type="html">I’ve had a few people ask me how to produce low frequencies on an arbitrary Arduino/Wiring pin. They have found that the tone() function (the same applies to the Tone library) can not produce frequencies below ~30 Hz.</summary></entry><entry><title type="html">Pung</title><link href="http://localhost:4000/noise/2014/01/22/pung/" rel="alternate" type="text/html" title="Pung" /><published>2014-01-22T08:00:00-05:00</published><updated>2014-01-22T08:00:00-05:00</updated><id>http://localhost:4000/noise/2014/01/22/pung</id><content type="html" xml:base="http://localhost:4000/noise/2014/01/22/pung/">&lt;p&gt;So, if one pings (yes, &lt;a href=&quot;http://dictionary.reference.com/browse/ping&quot;&gt;it’s now a  ”verb”&lt;/a&gt;) something or someone, they are said to be contacting something/someone with the intent of receiving an immediate response to ascertain their presence.&lt;/p&gt;
+
+&lt;p&gt;To be clear, I’m OK with the new verb.  However, I’m a little uneasy with the past tense of some of the new slang words that are entering the common vernacular.&lt;/p&gt;
+
+&lt;p&gt;So, does the past tense of “ping” get conjugated to “pinged”, which, unfortunately, should be pronounced like “hinged”, but people say “ping’d”?  Or should it be “pung”, much like “sung” or “hung”?&lt;/p&gt;
+
+&lt;p&gt;I think I’m going to start using “pung”.  That’s just the way I roll.&lt;/p&gt;
+
+&lt;p&gt;“My boss just pung me.”&lt;/p&gt;
+
+&lt;p&gt;“I pung Google, before I &lt;a href=&quot;http://dictionary.reference.com/browse/google&quot;&gt;googled&lt;/a&gt; ’pung’.”&lt;/p&gt;
+
+&lt;p&gt;It will definitely catch on, I’m sure.&lt;/p&gt;
+
+&lt;p&gt;(For extra credit, what should be the past tense of using Microsoft’s Bing search engine?  I assume that some people still use &lt;a href=&quot;http://news.yahoo.com/microsoft-admits-campaign-turn-bing-verb-massive-flop-234514035.html&quot;&gt;“bing” as a verb&lt;/a&gt;…)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt;
+So, after discussing this with a student (thanks Andre!), it might be a bit more complex than just “pung.”  We may have to have “pang” for the past tense, and “pung” for the past participle.  Examples forthcoming.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;I pang you.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;You were pung by me.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Donald pang the server.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;The server was pung by Donald.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;She pings all the servers he has pung.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Brett Hagman</name></author><category term="flotsam" /><category term="grammar" /><category term="pedantic" /><summary type="html">So, if one pings (yes, it’s now a  ”verb”) something or someone, they are said to be contacting something/someone with the intent of receiving an immediate response to ascertain their presence. To be clear, I’m OK with the new verb.  However, I’m a little uneasy with the past tense of some of the new slang words that are entering the common vernacular. So, does the past tense of “ping” get conjugated to “pinged”, which, unfortunately, should be pronounced like “hinged”, but people say “ping’d”?  Or should it be “pung”, much like “sung” or “hung”? I think I’m going to start using “pung”.  That’s just the way I roll. “My boss just pung me.” “I pung Google, before I googled ’pung’.” It will definitely catch on, I’m sure. (For extra credit, what should be the past tense of using Microsoft’s Bing search engine?  I assume that some people still use “bing” as a verb…) Update: So, after discussing this with a student (thanks Andre!), it might be a bit more complex than just “pung.”  We may have to have “pang” for the past tense, and “pung” for the past participle.  Examples forthcoming. I pang you. You were pung by me. Donald pang the server. The server was pung by Donald. She pings all the servers he has pung.</summary></entry><entry><title type="html">Down in Boston</title><link href="http://localhost:4000/noise/2013/09/06/down-in-boston/" rel="alternate" type="text/html" title="Down in Boston" /><published>2013-09-06T09:00:00-04:00</published><updated>2013-09-06T09:00:00-04:00</updated><id>http://localhost:4000/noise/2013/09/06/down-in-boston</id><content type="html" xml:base="http://localhost:4000/noise/2013/09/06/down-in-boston/">&lt;p&gt;Down in Boston to meet up with Alex and Hernando for the 2013 Open Hardware Summit.
+Hernando will be participating in a panel discussion on forking and attribution.&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="wiring" /><summary type="html">Down in Boston to meet up with Alex and Hernando for the 2013 Open Hardware Summit. Hernando will be participating in a panel discussion on forking and attribution.</summary></entry><entry><title type="html">Wiring++ and New Libraries</title><link href="http://localhost:4000/noise/2013/08/23/wiring-and-new-libraries/" rel="alternate" type="text/html" title="Wiring++ and New Libraries" /><published>2013-08-23T09:00:00-04:00</published><updated>2013-08-23T09:00:00-04:00</updated><id>http://localhost:4000/noise/2013/08/23/wiring-and-new-libraries</id><content type="html" xml:base="http://localhost:4000/noise/2013/08/23/wiring-and-new-libraries/">&lt;p&gt;Hernando, Alex, Robert (of &lt;a href=&quot;http://energia.nu/&quot;&gt;Energia&lt;/a&gt;), Ed (and Amon &amp;amp; Collin of &lt;a href=&quot;http://modk.it/&quot;&gt;Modkit&lt;/a&gt;), and I have been working as hard as we can during our spare time to bring out the new Wiring++ we demonstrated at Maker Faire San Mateo earlier this year.&lt;/p&gt;
+
+&lt;p&gt;Ed (from Modkit) is the one that came up with the idea for running threads and events in the background.  Alex has added some of his wizardry to the mix as well.&lt;/p&gt;
+
+&lt;p&gt;Hernando and Robert have put in some brilliant work on the new build process.&lt;/p&gt;
+
+&lt;p&gt;I’ve been working with Alex on some new libraries as well as a “base library” that people can use to build their own libraries.  More on that coming in the next few months.&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="wiring" /><summary type="html">Hernando, Alex, Robert (of Energia), Ed (and Amon &amp;amp; Collin of Modkit), and I have been working as hard as we can during our spare time to bring out the new Wiring++ we demonstrated at Maker Faire San Mateo earlier this year.</summary></entry><entry><title type="html">Google Interactive Doodle Disease</title><link href="http://localhost:4000/noise/2013/08/22/google-interactive-doodle-disease/" rel="alternate" type="text/html" title="Google Interactive Doodle Disease" /><published>2013-08-22T09:00:00-04:00</published><updated>2013-08-22T09:00:00-04:00</updated><id>http://localhost:4000/noise/2013/08/22/google-interactive-doodle-disease</id><content type="html" xml:base="http://localhost:4000/noise/2013/08/22/google-interactive-doodle-disease/">&lt;p&gt;&lt;a href=&quot;/assets/images/GIDD.jpg&quot;&gt;
+&lt;img src=&quot;/assets/images/GIDD.jpg&quot; style=&quot;&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A.k.a Shiny Ball Syndrome, Google Interactive Doodle (GID) Disease (GIDD) causes the user to immediately interact with the doodle upon opening a new window to search for, invariably, something much more important.  The unsuspecting victim will “play” with the doodle and within 2 minutes, will have completely forgotten what they came to search for.&lt;/p&gt;
+
+&lt;p&gt;One possible solution/workaround/vaccination: Use 150% of your will power to avoid playing with the GID upon first appearance and type your search string as fast as you possibly can into the search box, but don’t press the “Search” button until you’ve completely satiated your inner child’s desire to play with the completely useless, yet infinitely entertaining toy presented for your distraction.  WARNING: You may accidentally press on a part of the GID which will cause the doodle’s “related search” - this may cause your search string to be wiped out!&lt;/p&gt;
+
+&lt;p&gt;I hope this helps you. Unfortunately for me, I’m extremely susceptible to GID Disease.  I can no longer count how many searches I’ve lost (as well as how many brain cells along with them).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[Update 2018-06-07]&lt;/strong&gt;: I’m not alone! At least one other person feels similarly, and went as far as creating &lt;a href=&quot;https://grantwinney.com/how-to-hide-google-doodles-in-chrome/&quot;&gt;a browser extension&lt;/a&gt; to hide the GID.&lt;/p&gt;</content><author><name>Brett Hagman</name></author><category term="google" /><category term="flotsam" /><category term="timewasted" /><summary type="html"></summary></entry></feed>
